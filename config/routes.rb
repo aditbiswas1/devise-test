@@ -1,5 +1,6 @@
 DeviseTest::Application.routes.draw do
   resources :stuffs
+  root :to =>'stuffs#index'
 
 
   # The priority is based upon order of creation:
